@@ -1,0 +1,66 @@
+
+#home_class{
+    background-image: url("background_photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+@keyframes animation2 {
+    0%   { left:200px; top:0px;}
+    25%  { left:0px; top:0px;}
+    50%  { left:0px; top:0px;}
+    75%  {left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+.img2{
+
+    margin-top: 30px;
+    position: relative;
+    animation-name: animation2;
+    animation-duration: 5s;
+    animation-timing-function: linear;    
+}
+@keyframes animation1 {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:0px;}
+    75%  {left:200px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+
+.img1{
+    margin: 0px;
+  position: absolute;
+  animation-name: animation1;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.top_sid_of_the_web{
+    height: 104px;
+    
+}
+.button_top1,.button_top2,.button_top3,.button_top4,.button_top5{
+    width: 104px;
+    box-shadow: 5px 5px 50px white;
+    height: 50px;
+}
+
+
+.img2{
+    width: 369px;
+    height: 497px;
+}
+
+
+#hover_1:hover {
+    transform: translateY(-5px);
+}
+#hover_2:hover {
+    transform: scale(1.03);
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+
